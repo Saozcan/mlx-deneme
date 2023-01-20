@@ -1,0 +1,242 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: mlxTest
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /goinfre/saozcan/projects/mlxTest/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target mlxTest
+
+
+#############################################
+# Order-only phony target for mlxTest
+
+build cmake_object_order_depends_target_mlxTest: phony || CMakeFiles/mlxTest.dir
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/font.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/font.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/font.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_init_loop.m.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_init_loop.m || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_init_loop.m.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_int_str_to_wordtab.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_int_str_to_wordtab.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_int_str_to_wordtab.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_mouse.m.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_mouse.m || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_mouse.m.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_new_image.m.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_new_image.m || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_new_image.m.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_new_window.m.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_new_window.m || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_new_window.m.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_opengl.m.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_opengl.m || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_opengl.m.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_png.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_png.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_png.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_rgb.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_rgb.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_rgb.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_shaders.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_shaders.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_shaders.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_xpm.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021/mlx_xpm.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_xpm.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir/minilibx_opengl_20191021
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+build CMakeFiles/mlxTest.dir/main.c.o: C_COMPILER__mlxTest_Debug /goinfre/saozcan/projects/mlxTest/main.c || cmake_object_order_depends_target_mlxTest
+  DEP_FILE = CMakeFiles/mlxTest.dir/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  INCLUDES = -I/goinfre/saozcan/projects/mlxTest/minilibx_opengl_20191021
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/mlxTest.dir
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_PDB = mlxTest.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mlxTest
+
+
+#############################################
+# Link the executable mlxTest
+
+build mlxTest: C_EXECUTABLE_LINKER__mlxTest_Debug CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/font.c.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_init_loop.m.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_int_str_to_wordtab.c.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_mouse.m.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_new_image.m.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_new_window.m.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_opengl.m.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_png.c.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_rgb.c.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_shaders.c.o CMakeFiles/mlxTest.dir/minilibx_opengl_20191021/mlx_xpm.c.o CMakeFiles/mlxTest.dir/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/mlxTest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/mlxTest.dir/
+  TARGET_FILE = mlxTest
+  TARGET_PDB = mlxTest.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /goinfre/saozcan/projects/mlxTest/cmake-build-debug && /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /goinfre/saozcan/projects/mlxTest/cmake-build-debug && /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/goinfre/saozcan/projects/mlxTest -B/goinfre/saozcan/projects/mlxTest/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /goinfre/saozcan/projects/mlxTest/cmake-build-debug
+
+build all: phony mlxTest
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /goinfre/saozcan/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

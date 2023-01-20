@@ -1,0 +1,3 @@
+/goinfre/saozcan/projects/mlxTest/cmake-build-debug/CMakeFiles/mlxTest.dir
+/goinfre/saozcan/projects/mlxTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/goinfre/saozcan/projects/mlxTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
